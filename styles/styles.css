@@ -92,8 +92,8 @@ font-size: 17px;
     letter-spacing: -0.531474px;
 }
 
-.hero {padding-top: 115px;
-padding-bottom: 43px;}
+.hero {padding-top: 104px;
+padding-bottom: 32px;}
 
 .container {
     padding-left: 190px;
@@ -224,6 +224,7 @@ align-items: center;}
             font-size: 17px;
             line-height: 2.94;
             letter-spacing: -0.531474px;
+            margin-bottom: 9px;
     }
 
 .month {font-size: 28px;
@@ -232,7 +233,6 @@ align-items: center;}
 
 
 
- .card-list__item:not(:last-child) {margin-bottom: 18px;}
 
 .price__button {
 padding: 19px 42px;
