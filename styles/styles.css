@@ -5,6 +5,7 @@
 --white-color: rgba(255, 255, 255, 1);
 --black-color: rgba(25, 25, 27, 1);
 --grey-backgr: rgba(248, 248, 248, 1);
+--red-color: rgba(159, 57, 25, 1);
 }
 
 
@@ -206,7 +207,12 @@ align-items: center;}
         padding-bottom: 27px;
     }
 
+.price-list__item--active {
+    background-color: var(--orange-button);
+}
 
+.price__subtitle--active, .price__uppertitle--active, .card-list__item--active
+ {color: var(--white-color);}
                 .card-list {
                     display: flex;
                     flex-direction: column;
@@ -235,6 +241,10 @@ background-color: var(--white-color);
 color: var(--blue-button);
 }
 
+.price__button--active {background-color: var(--red-color);
+color: var(--white-color);}
+
+
 .footer {background-color: rgba(255, 113, 67, 0.27);}
 
 
@@ -250,3 +260,5 @@ justify-content: space-between;}
 .footer__link {display: block;
 padding-top: 65px;
 padding-bottom: 60px;}
+
+.footer__link--active {color: var(--black-color);}

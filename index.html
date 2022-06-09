@@ -27,21 +27,22 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <img src="./images/Logo Color.png" class="logo" width="200" alt="logo" />
-
+        <a href="#">
+          <img src="./images/Logo Color.png" class="logo" width="200" alt="logo" />
+        </a>
         <nav class="navigation">
           <ul class="nav-list">
             <li class="nav__item">
-              <a class="nav__link nav__link--current" href="">Home</a>
+              <a class="nav__link nav__link--current" href="#">Home</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="">Features</a>
+              <a class="nav__link" href="#">Features</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="">Pricing</a>
+              <a class="nav__link" href="#">Pricing</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="">Blog</a>
+              <a class="nav__link" href="#">Blog</a>
             </li>
           </ul>
         </nav>
@@ -101,15 +102,19 @@
               <button class="button price__button" type="button">Get Started</button>
             </li>
 
-            <li class="price-list__item">
-              <p class="price__uppertitle">Premium</p>
-              <h3 class="price__subtitle">$29<span class="month">/month</span></h3>
+            <li class="price-list__item price-list__item--active">
+              <p class="price__uppertitle price__uppertitle--active">Premium</p>
+              <h3 class="price__subtitle price__subtitle--active">
+                $29<span class="month">/month</span>
+              </h3>
               <ul class="card-list">
-                <li class="card-list__item">10 Website</li>
-                <li class="card-list__item">15 GB Hosting</li>
-                <li class="card-list__item">Premium Support</li>
+                <li class="card-list__item card-list__item--active">10 Website</li>
+                <li class="card-list__item card-list__item--active">15 GB Hosting</li>
+                <li class="card-list__item card-list__item--active">Premium Support</li>
               </ul>
-              <button class="button price__button" type="button">Get Started</button>
+              <button class="button price__button price__button--active" type="button">
+                Get Started
+              </button>
             </li>
 
             <li class="price-list__item">
@@ -131,7 +136,9 @@
       <div class="container footer-container">
         <img src="./images/Logo Color.png" class="logo" width="200" alt="logo" />
         <ul class="footer-list">
-          <li class="footer__item"><a class="footer__link" href="">Support</a></li>
+          <li class="footer__item">
+            <a class="footer__link footer__link--active" href="">Support</a>
+          </li>
 
           <li class="footer__item"><a class="footer__link" href="">Premium</a></li>
           <li class="footer__item"><a class="footer__link" href="">Pricing</a></li>
