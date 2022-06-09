@@ -179,7 +179,8 @@ margin-bottom: 98px;}
 
     .price-list {display: flex;
     gap: 40px;
-justify-content: center;}
+justify-content: center;
+align-items: center;}
 
     .price__subtitle {color: var(--black-color);
     font-size: 60px;
@@ -233,3 +234,19 @@ width: 285px;
 background-color: var(--white-color);
 color: var(--blue-button);
 }
+
+.footer {background-color: rgba(255, 113, 67, 0.27);}
+
+
+.footer-container {display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.footer-list {display: flex;
+}
+
+.footer__item:not(:last-child) {margin-right: 34px;}
+
+.footer__link {display: block;
+padding-top: 65px;
+padding-bottom: 60px;}
